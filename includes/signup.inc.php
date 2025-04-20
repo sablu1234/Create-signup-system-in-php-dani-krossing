@@ -35,7 +35,7 @@ if($_SERVER['REQUEST_METHOD'] = "POST"){
         if($errors){
             $_SESSION["errors_signup"] = $errors;
 
-            $signData = [
+            $signupData = [
                 'username' => $username,
                 'email' => $email,
             ];
